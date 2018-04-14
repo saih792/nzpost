@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-kerning: auto;
+	margin: 0;
+}
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+
+img {
+	width: 590px;
+	margin-bottom: 10px;
+}
+
+body :not(img) {
+	margin: 10px;
+}
+
+label {
+	width:50px;
+	float:left;
+}
+
+#address, #country {
+	width: 400px;
+}
+
+h6 {
+    width: 580px;
+    word-wrap: break-word;
+}
